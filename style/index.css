@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+/* nav-bar */
+
+.navbar{
+    display: flex;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-nav{
+    list-style-type: none;
+    margin-left: 70px;
+    padding: 0;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+}
+
+.nav-item{
+    float: left;
+}
+
+.nav-item a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-seleted a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #0CAAAA;
+    font-size: 15px;
+}
+
+.nav-item a:hover{
+    color: #0CAAAA;
+}
+
+.login{
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    padding: 10px 30px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.login:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+/* nav-bar */
+
+/* main-banner */
+
+.main-banner{
+    width: 100vw;
+    height: 500px;
+}
+
+.banner-image{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: -150px;
+    right: -90px;
+    overflow: hidden;
+    background-color: #cbd6d6;
+    border-radius: 100px;
+    transform: rotate(60deg);
+}
+
+.banner-image img{
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(-60deg);
+}
+
+.main-banner-left{
+    width: 60%;
+    height: 100%;
+}
+
+.banner-left-content{
+    margin: 100px;
+}
+
+.banner-left-content h1{
+    font-size: 45px;
+}
+
+.banner-left-content p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(156, 155, 155);
+}
+
+.appoinment-btn{
+    position: absolute;
+    padding: 30px 50px;
+    margin-top: 50px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #0CAAAA;
+    color: white;
+}
